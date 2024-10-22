@@ -1,0 +1,51 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');*/
+body{
+    background-color: lightblue;
+}
+
+ul{
+    list-style: none;
+    background-color: rgb(21,239,21);
+    width: 300px;
+    padding: 10px;
+}
+
+.Alineado{
+    display: inline;
+    padding: 10px;
+}
+
+h1{
+    background-image: url(./imagenes/perrito\ 3.webp);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    padding: 80px 20px;
+    height: 500px;
+    text-align: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-shadow: 5px 5px whitesmoke;
+}
+
+.Tarjetas{
+    max-width: 303px;
+    margin: 20px auto;
+    border: 2px solid darkolivegreen;
+    box-shadow: 5px 5px 10px blue, -5px -5px 10px pink;
+}
+
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0%;
+    font-family: 'raleway','Times New Roman', Times, serif;
+}
+
+.recuadro{
+    width: 300px;
+}
+
+.resaltado{
+    background-color: yellow;
+}
